@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="match_parent"
+        android:text="@string/load_intertitial"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_below="@+id/loadButton"
+        android:text="@string/interstitial_not_ready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
